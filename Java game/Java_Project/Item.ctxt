@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Item
+comment0.text=\r\n\ Item\ class\ describes\ behaviour\ of\ items\ in\ game\r\n
+comment1.params=name\ weight\ description\ isPickable
+comment1.target=Item(java.lang.String,\ int,\ java.lang.String,\ boolean)
+comment1.text=\r\n\ initialises\ Item\ object\ and\ sets\ field\ values\r\n\ @param\ name\ is\ set\ to\ Item\ name\r\n\ @param\ weight\ is\ set\ to\ Item\ weight\r\n\ @param\ description\ is\ set\ to\ Item\ description\r\n\ @param\ isPickable\ is\ set\ to\ isPickable\r\n
+comment2.params=
+comment2.target=boolean\ getIsPickable()
+comment2.text=\r\n\ @return\ true\ if\ the\ it\ is\ possible\ to\ pick\ up\ the\ item.\r\n
+comment3.params=
+comment3.target=int\ getWeight()
+comment3.text=\r\n\ @return\ weight.\r\n
+comment4.params=
+comment4.target=java.lang.String\ getName()
+comment4.text=\r\n\ @return\ name\r\n
+comment5.params=
+comment5.target=void\ printDescription()
+comment5.text=\r\n\ print\ description\ of\ an\ item\r\n
+numComments=6

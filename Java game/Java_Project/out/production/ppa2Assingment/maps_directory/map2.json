@@ -1,0 +1,120 @@
+{
+  "map_name": {
+    "rooms": [
+      "room1",
+      "room2",
+      "room3",
+      "room4",
+      "room5",
+      "room6",
+      "room7",
+      "room8"
+    ],
+    "room1": {
+      "items": [
+        "magicCompass"
+      ],
+      "entries": {
+        "south-west": "room2",
+        "south-east": "room3"
+      },
+      "description": "room1 - start"
+    },
+    "room2": {
+      "items": [
+        "Geometry"
+      ],
+      "entries": {
+        "north-east": "room1",
+        "east": "room3",
+        "south": "room6",
+        "south-west": "room4"
+      },
+      "description": "room2"
+    },
+    "room3": {
+      "items": [
+        "thesisAssumption"
+      ],
+      "entries": {
+        "north-west": "room1",
+        "west": "room2",
+        "south": "room7",
+        "south-east": "room5"
+      },
+      "description": "room3"
+    },
+    "room4": {
+      "items": [
+        "Analysis"
+      ],
+      "entries": {
+        "north-east": "room2",
+        "south-east": "room6"
+      },
+      "description": "room4"
+    },
+    "room5": {
+      "items": [
+        "EasterEgg"
+      ],
+      "entries": {
+        "north-west": "room3",
+        "south-west": "room7"
+      },
+      "description": "room5"
+    },
+    "room6": {
+      "items": [
+         "Combinatorics"
+      ],
+      "entries": {
+        "north": "room2",
+        "east": "room7",
+        "north-west": "room4",
+        "south-east": "room8"
+      },
+      "description": "room6"
+    },
+    "room7": {
+      "items": [
+        "bluff"
+      ],
+      "entries": {
+        "north": "room3",
+        "west": "room6",
+        "north-east": "room5",
+        "south-west": "room8"
+      },
+      "description": "room7"
+    },
+    "room8": {
+      "items": [
+        "qed"
+      ],
+      "entries": {
+        "north-east": "room7",
+        "north-west": "room6"
+      },
+      "description": "room8"
+    },
+    "start_spawn_room": "room1",
+    "enemy_spawn_room": "room8",
+    "teleport_room": "room5",
+    "items":
+    {
+      "magicCompass": {"description": "compass imbued with magic", "weight": 3, "isPickable": true},
+      "Geometry": {"description": "combine with Analysis and Combinatorics to create TheSolution", "weight": 3, "isPickable": true},
+      "thesisAssumption": {"description": "combine with qed and bluff to create GreatBluff", "weight": 3, "isPickable": true},
+      "Analysis": {"description": "combine with Geometry and Combinatorics to create TheSolution", "weight": 3, "isPickable": true},
+      "EasterEgg": {"description": "congratulations! you teleported into same room", "weight": 3, "isPickable": true},
+      "qed": {"description": "combine with thesisAssumption and bluff to create GreatBluff", "weight": 3, "isPickable": true},
+      "bluff": {"description": "combine with qed and thesisAssumption to create GreatBluff", "weight": 3, "isPickable": true},
+      "Combinatorics": {"description": "combine with Analysis and Geometry to create TheSolution", "weight": 3, "isPickable": true},
+      "GreatBluff": {"description": "let's hope it works on polish", "weight": 3, "isPickable": true},
+      "TheSolution": {"description": "the final weapon! now how to find enemy...", "weight": 3, "isPickable": true}
+    },
+    "map_structure":
+    "....1....\n.../.\\...\n..2---3..\n./|...|\\.\n4.|.,.|.5\n.\\|...|/.\n..6---7..\n...\\./...\n....8...."
+  }
+}

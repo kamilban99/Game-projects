@@ -1,0 +1,54 @@
+{
+  "map_name": {
+    "rooms": [
+      "room1",
+      "room2",
+      "room3",
+      "room4",
+      "room5",
+      "room6",
+      "room7",
+      "room8",
+      "room9",
+      "room10",
+    ],
+    "room1": {
+      "items": [
+        "item1",
+        "item2"
+      ],
+      "entries": {
+        "west": "room2",
+        "north": "room3"
+      },
+      "description": "i m room 1"
+    },
+    "room2": {
+      "items": [
+        "item3",
+        "item4"
+      ],
+      "entries": {
+        "east": "room1",
+        "south": "room3"
+      },
+      "description": "i m room 1"
+    },
+    "room3": {
+      "items": [
+        "item5",
+        "item6"
+      ],
+      "entries": {
+        "south": "room1",
+        "north": "room2"
+      },
+      "description": "i m room 2"
+    },
+    "start_spawn_room": "room1",
+    "enemy_spawn_room": "room2",
+    "items": [
+      "item1": {"description": "jakis opis"}
+    ]
+  }
+}

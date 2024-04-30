@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Character
+comment0.text=\r\n\ template\ for\ enemy\ and\ player\ class\r\n
+comment1.params=
+comment1.target=Room\ getCurrentRoom()
+comment1.text=\r\n\ @return\ currentRoom\r\n
+comment2.params=newRoom
+comment2.target=void\ setCurrentRoom(Room)
+comment2.text=\r\n\ @param\ newRoom\ is\ set\ as\ currentRoom\r\n
+comment3.params=
+comment3.target=boolean\ getIsAlive()
+comment3.text=\r\n\ @return\ isAlive\r\n
+comment4.params=
+comment4.target=void\ die()
+comment4.text=\r\n\ sets\ isAlive\ to\ false\r\n
+comment5.params=
+comment5.target=int\ getTurnCounter()
+comment5.text=\r\n\ @return\ turnCounter\r\n
+comment6.params=counter
+comment6.target=void\ setTurnCounter(int)
+comment6.text=\r\n\r\n\ @param\ counter\ ,\ turnCounter\ is\ set\ to\ value\ of\ counter\r\n
+numComments=7

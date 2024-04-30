@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=FileManagement
+comment0.text=\r\n\ class\ that\ contains\ methods\ required\ to\ save\ game\ progress\ to\ a\ file\ and\r\n\ load\ game\ progress\ from\ a\ file\r\n
+comment1.params=map\ player\ enemy\ filePath
+comment1.target=void\ saveProgress(Map,\ Player,\ Enemy,\ java.lang.String)
+comment1.text=\r\n\ saves\ game\ progress\ to\ a\ file\r\n\ file\ format\r\n\ positon,playerPosition,enemyPosition\r\n\ inventory,list\ of\ item\ in\ inventory\ seperated\ with\ ","\r\n\ cooldown,playerCounter,EnemyCounter\r\n\ for\ every\ room\r\n\ room\ roomName(for\ example\ room1\ (in\ code\ room.getName())\ List\ of\ items\ seperated\ with\ ","\r\n\r\n\ @param\ map\ \ \ \ \ \ map\ object\ of\ currently\ running\ game\r\n\ @param\ player\ \ \ player\ object\ of\ currently\ running\ game\r\n\ @param\ enemy\ \ \ \ enemy\ object\ of\ currently\ running\ gmae\r\n\ @param\ filePath\ file\ path\ to\ a\ file\ in\ which\ we\ want\ to\ save\ game\ progress\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ file\ path\ must\ be\ valid\ (leading\ to\ .csv\ file\ and\ be\ in\ the\ same\ drive\ as\ game\ to\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ have\ permition\ for\ creating\ and\ saving\ file\ there)\r\n
+comment2.params=map\ player\ enemy\ filePath
+comment2.target=void\ readProgress(Map,\ Player,\ Enemy,\ java.lang.String)
+comment2.text=\r\n\ loads\ from\ a\ file\ game\ progress\r\n\ file\ format\r\n\ positon,playerPosition,enemyPosition\r\n\ inventory,list\ of\ item\ in\ inventory\ seperated\ with\ ","\r\n\ cooldown,playerCounter,EnemyCounter\r\n\ for\ every\ room\r\n\ room\ roomName(for\ example\ room1\ (in\ code\ room.getName())\ List\ of\ items\ seperated\ with\ ","\r\n\ @param\ map\ current\ game\ map\ object\r\n\ @param\ player\ current\ game\ player\ object\r\n\ @param\ enemy\ current\ game\ enemy\ object\r\n\ @param\ filePath\ file\ path\ to\ an\ object\ in\ which\ game\ progress\ is\ saved\ ,\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ must\ be\ .csv\ and\ exist\r\n
+comment3.params=hashMap
+comment3.target=java.lang.String\ hashmapItemToString(java.util.HashMap)
+comment3.text=\r\n\ get\ a\ string\ of\ all\ item\ names\ in\ a\ hashmap\r\n\ @param\ hashMap\ a\ hashmap\ of\ item\ and\ its\ name\ from\ which\ we\ want\ to\ get\ string\ of\ all\ items\ in\ it\r\n\ @return\ string\ of\ names\ of\ items\ in\ the\ hashMap\r\n
+numComments=4

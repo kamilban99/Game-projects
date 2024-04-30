@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Enemy
+comment0.text=\r\n\ class\ describing\ behaviour\ of\ enemy\r\n
+comment1.params=name
+comment1.target=Enemy(java.lang.String)
+comment1.text=\r\n\ constractor\ that\ initilises\ an\ object\r\n\ @param\ name\ sets\ enemy\ name\ to\ value\ of\ name\r\n
+comment2.params=
+comment2.target=void\ move()
+comment2.text=\r\n\ moves\ enemy\ to\ another\ room\ (which\ room\ is\ specifeid\ by\ getRandomExit)\ if\ a\ turnCouter\ is\ not\ positive\r\n
+comment3.params=
+comment3.target=void\ setStunned()
+comment3.text=\r\n\ sets\ turnCounter\ to\ 3\r\n
+comment4.params=
+comment4.target=java.lang.String\ getName()
+comment4.text=\r\n\r\n\ @return\ name\r\n
+comment5.params=
+comment5.target=boolean\ isStunned()
+comment5.text=\r\n\ checks\ if\ turnCoutner\ is\ positive\r\n\ @return\ true\ if\ turnCounter\ is\ positive\r\n
+numComments=6
