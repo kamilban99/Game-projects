@@ -1,2 +1,2 @@
-# Projekty
-Projekty własne oraz z uczelni
+# Game projects
+Game projects for uni based in Java and Python
